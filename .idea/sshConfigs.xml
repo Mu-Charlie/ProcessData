@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="192.168.0.242" id="6d517a4e-6894-434d-9e57-98208a271189" port="18518" customName="realdoctor" nameFormat="CUSTOM" username="mucailin" />
+      <sshConfig authType="PASSWORD" host="192.168.0.242" id="774949e7-310d-4b6a-a505-39e92471674e" port="18518" customName="realdoctor" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="192.168.0.242" id="890a9633-b1d5-495b-8898-7623bb55d822" port="18518" customName="realdoctor" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

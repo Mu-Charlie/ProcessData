@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4f5ecbb3-989f-4c78-95df-eca75ee84ec8" name="realdoctor" url="http://192.168.0.242">
+        <fileTransfer rootFolder="/home/mucailin" accessType="SFTP" host="192.168.0.242" port="18518" sshConfigId="6d517a4e-6894-434d-9e57-98208a271189" sshConfig="realdoctor">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="mucailin@192.168.0.242:18518" autoUploadExternalChanges="true" showNewOnSourceInSync="false">
+    <serverData>
+      <paths name="mucailin@192.168.0.240:18518">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="mucailin@192.168.0.242:18518">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/mucailin/COVID-19-Segmentation" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="realdoctor">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/COVID-19-Segmentation" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
