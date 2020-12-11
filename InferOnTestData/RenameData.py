@@ -38,16 +38,24 @@ def rename_infer_to_origin(path):
     # print("============================================")
     # print("                功能没有做测试                 ")
     # print("============================================")
-    assert 0==1,"\n============================================\n            功能没有做测试,请先做测试            \n============================================\n"
+    # assert 0==1,"\n============================================\n            功能没有做测试,请先做测试            \n============================================\n"
     for file in os.listdir(path):
-        new_file_name = info[file]
+        temp=file[:-7]+"_0000"+file[-7:]
+        # print(temp)
+        new_file_name = info[temp]
+        # print(new_file_name)
         os.rename(os.path.join(path, file), os.path.join(path, new_file_name))
-
-
+def rename_final(path):
+    for file in os.listdir(path):
+        new_file_name=file.replace("volume-covid19-A-0","")
+        new_file_name=new_file_name.replace("COVID-19-AR-","")
+        new_file_name=new_file_name.replace("_ct","")
+        os.rename(os.path.join(path,file),os.path.join(path,new_file_name))
 
 if __name__=='__main__':
     # data_root='/data/mcl/nnUnet/nnUNet_raw/nnUNet_raw_data/Task007_COVID/COVIDtest'
-    data_root='/data/mcl/nnUnet/nnUNet_raw/nnUNet_raw_data/Task007_COVID/COVIDinf'
+    data_root2='/data/mcl/Final_Submission'
     # rename_test_to_standard(data_root)
-    rename_infer_to_origin(data_root)
+    # rename_infer_to_origin(data_root2)
+    rename_final(data_root2)
 
